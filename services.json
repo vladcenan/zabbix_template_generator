@@ -1,0 +1,18 @@
+{  
+  "microservice1":{
+  "adminport": "288200",
+  "ports": "288200,277200",
+  "httpport": "277200",
+  "haproxyport": "288100",
+  "loadbalancer": "10.0.0.2",
+  "nodes": "10.0.0.3,10.0.0.4,10.0.0.5"
+  },
+  "microservice2":{
+  "adminport": "266200",
+  "ports": "266200,255200,255201",
+  "httpport": "255201",
+  "haproxyport": "266100",
+  "loadbalancer": "10.0.0.6",
+  "nodes": "10.0.0.7,10.0.0.8" 
+  }
+}
